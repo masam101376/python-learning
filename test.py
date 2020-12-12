@@ -26,3 +26,18 @@
 # print(card_a.date, card_a.user_name, card_a.message())
 # print(card_b.message())
 
+
+# import module_name ... モジュール(変数・関数・クラス等を汎用的に使えるようにまとめたコード群)をインポートする
+import math
+print(math.pi)
+
+# 外部モジュール
+# NumPy
+# Pandas
+# Flask
+# Django
+
+import numpy
+
+numpy_list = [3, 1, 5, 10 , 1093, 48]
+print(numpy.sum(numpy_list))
